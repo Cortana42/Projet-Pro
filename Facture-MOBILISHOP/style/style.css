@@ -1,0 +1,358 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "SFPRO";
+  src: url("../fonts/SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "SFPRO-BLACK";
+  src: url("../fonts/SFProDisplay-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SFPRO-BOLD";
+  src: url("../fonts/SFProDisplay-Bold.ttf") format("truetype");
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 900px;
+  /*La taille de la page A4 est en bas dans la partis @media screen ligne 293 */
+}
+
+body {
+  font-family: "SFPRO";
+}
+
+.top,
+.page-header-space {
+  height: 160px;
+}
+
+.footer-page {
+  height: 350px;
+}
+
+.page-footer-space {
+  height: 220px;
+  background-color: white;
+}
+
+.page-header-space {
+  background-color: white;
+  position: relative;
+}
+
+.header-page {
+  background-size: 390px 390px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 5%;
+  bottom: 30%;
+  z-index: 999;
+  width: 100%;
+  top: 0mm;
+}
+
+.container {
+  margin-left: 5rem;
+  margin-right: 4.1rem;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 5rem;
+}
+
+.logo img {
+  width: 115px;
+  height: 100px;
+}
+
+.tournament {
+  text-transform: uppercase;
+  color: #30375c;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.tournament .t {
+  font-family: "SFPRO-BLACK";
+  color: #49433d;
+  font-weight: 900;
+  font-size: 1.875rem;
+}
+
+.tournament .uf {
+  font-family: "SFPRO-BOLD";
+  font-size: 1.25rem;
+}
+
+.titre {
+  font-size: 25px;
+  line-height: 5rem;
+  color: #30375c;
+}
+
+.facture-info {
+  margin-top: 4.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fac-top1 {
+  text-align: left;
+  margin-top: 28px;
+  line-height: 1.3rem;
+}
+
+.fac-top2 {
+  margin-left: 70px;
+  text-align: right;
+  margin-top: -20px;
+  line-height: 1.3rem;
+}
+
+.fac-top2 p {
+  color: orangered;
+}
+
+.top2 {
+  margin-bottom: 3px;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 3rem;
+}
+
+.points {
+  margin-left: 34.5rem;
+}
+
+.adr-facture {
+  margin-top: 3rem;
+}
+
+.adr-facture span {
+  color: orangered;
+}
+
+.table-style {
+  min-width: 47.8rem;
+  width: auto;
+  border-radius: 1rem;
+  background-color: #ef812724;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.container thead {
+  background-color: #ff7500a6;
+  line-height: 3rem;
+}
+
+.description-head {
+  width: 18rem;
+  text-align: left;
+  padding-left: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.amount-head {
+  border-top-right-radius: 1rem;
+}
+
+.unitprice-head {
+  width: 7rem;
+}
+
+.description-body {
+  text-align: left;
+  line-height: 1.4rem;
+}
+
+.unitprice-body {
+  text-align: left;
+}
+
+.taxe-body {
+  text-align: left;
+}
+
+.container td {
+  padding: 1rem 1rem 0.5rem;
+}
+
+.container tbody {
+  text-align: center;
+}
+
+.subtotal-table {
+  float: right;
+  border-collapse: collapse;
+}
+
+.subtotal-line {
+  background-color: white;
+}
+
+.subtotal-title {
+  width: 15rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.subtotal-value {
+  width: 6rem;
+}
+
+.tva-line {
+  background-color: #ff7500a6;
+}
+
+.tva-title {
+  text-align: left;
+  border-top-left-radius: 1rem;
+}
+
+.tva-value {
+  border-top-right-radius: 1rem;
+}
+
+.final-amount-title {
+  text-align: left;
+  border-bottom-left-radius: 1rem;
+}
+
+.final-amount-value {
+  border-bottom-right-radius: 1rem;
+}
+
+.amount-line {
+  background-color: #ef812724;
+}
+
+.mobilishop-adresse {
+  padding: 5px;
+  margin-top: 9rem;
+  line-height: 1.6rem;
+}
+
+.footer-page {
+  background-repeat: no-repeat;
+  background-size: 1030px 991px;
+  background-position-x: -50px;
+  background-position-y: -222px;
+  padding-top: 275px;
+  font-family: "SFPRO-BOLD";
+  bottom: 0;
+  width: 100%;
+}
+
+.foot {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 1rem 4.1rem 4rem 5.3rem;
+}
+
+.foot span {
+  margin-left: 15.5rem;
+}
+
+hr {
+  width: 45.5rem;
+  background: black;
+  height: 2px;
+  border: 0;
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    /*Chrome, Safari, Opéra */
+    color-adjust: exact !important;
+    /*Firefox*/
+  }
+  thead {
+    display: table-header-group;
+  }
+  tfoot {
+    display: table-footer-group;
+  }
+  @page {
+    size: A4;
+    margin: 0 !important;
+  }
+  html,
+  body {
+    margin: 0;
+    width: 210mm;
+    height: 297mm;
+    min-height: 297mm;
+  }
+  .container {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .table-style {
+    min-width: 39rem;
+  }
+  .tournament .uf {
+    font-size: 1rem;
+  }
+  .tournament .t {
+    font-size: 1.6rem;
+  }
+  .logo {
+    margin-left: 4.7rem;
+    margin-top: 4rem;
+  }
+  .logo img {
+    width: 115px;
+    height: 100px;
+  }
+  .facture-info {
+    margin-right: 4rem;
+  }
+  .facture-info p {
+    font-size: 13px;
+  }
+  .points {
+    margin-left: 29.6rem;
+    font-size: 13px;
+  }
+  .foot {
+    margin-left: 4rem;
+  }
+  .foot span {
+    margin-left: 14rem;
+  }
+  hr {
+    width: 41.5rem;
+    height: 1px;
+  }
+  .mobilishop-adresse {
+    font-size: 13px;
+  }
+  .table-style {
+    border-radius: 1rem;
+  }
+  .footer-page {
+    position: fixed;
+  }
+}
+/*# sourceMappingURL=style.css.map */

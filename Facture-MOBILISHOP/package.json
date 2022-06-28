@@ -1,0 +1,31 @@
+{
+  "name": "retro-server",
+  "version": "1.0.0",
+  "description": "Serveur HTTP pour API REST Facture\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/uft-app/facture.git"
+  },
+  "keywords": [
+    "server",
+    "http",
+    "api",
+    "rest\u001b[D\u001b[D"
+  ],
+  "author": "Alaoui Mohammed - UFT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/uft-app/facture/issues"
+  },
+  "homepage": "https://gitlab.com/uft-app/facture#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.2",
+    "twig": "^1.15.4"
+  }
+}
